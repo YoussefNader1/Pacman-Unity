@@ -197,6 +197,10 @@ GameObject:
   - component: {fileID: 7464384398029230915}
   - component: {fileID: 7464384398029230916}
   - component: {fileID: 7464384398029230917}
+  - component: {fileID: 726199792385565281}
+  - component: {fileID: 5694326952926437393}
+  - component: {fileID: 8862794784227257991}
+  - component: {fileID: 4456409354008567332}
   m_Layer: 7
   m_Name: Ghost_Base
   m_TagString: Untagged
@@ -292,6 +296,64 @@ MonoBehaviour:
   initialBehavior: {fileID: 0}
   target: {fileID: 0}
   points: 200
+--- !u!114 &726199792385565281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464384398029230918}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e56e93f9a85f2174dadd6fdb859d8f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0
+  inside: {fileID: 0}
+  outside: {fileID: 0}
+--- !u!114 &5694326952926437393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464384398029230918}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90e4b56b62e12c4dab1ac724d70d134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 7
+--- !u!114 &8862794784227257991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464384398029230918}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef6398471c69b84e95ffbe67397df0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 20
+--- !u!114 &4456409354008567332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464384398029230918}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589e258e6d64c574bb07b6a55fcd6b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 8
+  body: {fileID: 9089034602582540551}
+  eyes: {fileID: 4445684753979229449}
+  blue: {fileID: 6893143470852615098}
+  white: {fileID: 384726116835052320}
 --- !u!1 &8698491935754068360
 GameObject:
   m_ObjectHideFlags: 0

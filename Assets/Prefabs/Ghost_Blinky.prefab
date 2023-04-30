@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: initialDirection.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 7464384398029230917, guid: 860267d82743f9147a9a86086c440bff, type: 3}
+      propertyPath: initialBehavior
+      value: 
+      objectReference: {fileID: 2185626246842401704}
     - target: {fileID: 7464384398029230918, guid: 860267d82743f9147a9a86086c440bff, type: 3}
       propertyPath: m_Name
       value: Ghost_Blinky
@@ -77,3 +81,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 860267d82743f9147a9a86086c440bff, type: 3}
+--- !u!114 &2185626246842401704 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5694326952926437393, guid: 860267d82743f9147a9a86086c440bff, type: 3}
+  m_PrefabInstance: {fileID: 5859947604201382841}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90e4b56b62e12c4dab1ac724d70d134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
